@@ -1,0 +1,207 @@
+/* Общие стили */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ body {
+   font-family: 'Arial', sans-serif;
+   line-height: 1.6;
+   color: #fff;
+   background-color: #0e0e0e;
+ }
+ 
+ .container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 15px;
+ }
+ 
+ a {
+   color: #f0a500;
+   text-decoration: none;
+ }
+ 
+ a:hover {
+   text-decoration: underline;
+ }
+ 
+ /* Header */
+ .header {
+   background-color: #111;
+   padding: 20px 0;
+   border-bottom: 1px solid #333;
+ }
+ 
+ .header .container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .logo {
+   font-size: 24px;
+   font-weight: bold;
+ }
+ 
+ .nav ul {
+   display: flex;
+   list-style: none;
+   gap: 20px;
+ }
+ 
+ .nav ul li a {
+   color: #fff;
+   font-size: 16px;
+   transition: color 0.3s;
+ }
+ 
+ .nav ul li a:hover {
+   color: #f0a500;
+ }
+ 
+ .lang-switch a {
+   font-size: 14px;
+   margin-left: 10px;
+   color: #ccc;
+ }
+ 
+ .lang-switch a.active {
+   color: #f0a500;
+ }
+ 
+ /* Баннер */
+ .banner {
+   background: url('path_to_your_banner_image.jpg') no-repeat center center/cover;
+   height: 500px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+ }
+ 
+ .banner h1 {
+   font-size: 48px;
+   margin-bottom: 10px;
+   text-transform: uppercase;
+ }
+ 
+ .banner p {
+   font-size: 20px;
+   margin-bottom: 20px;
+ }
+ 
+ .banner .btn {
+   display: inline-block;
+   background-color: #f0a500;
+   color: #000;
+   padding: 15px 30px;
+   font-size: 16px;
+   font-weight: bold;
+   border-radius: 5px;
+   transition: background 0.3s;
+ }
+ 
+ .banner .btn:hover {
+   background-color: #cc8400;
+ }
+ 
+ /* Секции */
+ section {
+   padding: 60px 0;
+   border-bottom: 1px solid #333;
+ }
+ 
+ .about, .features, .requirements, .quotes, .newsletter {
+   text-align: center;
+ }
+ 
+ section h2 {
+   font-size: 36px;
+   margin-bottom: 20px;
+   color: #f0a500;
+ }
+ 
+ section p, section ul {
+   font-size: 18px;
+   color: #ccc;
+ }
+ 
+ /* Особенности */
+ .features ul {
+   list-style: none;
+   padding: 0;
+ }
+ 
+ .features ul li {
+   margin-bottom: 10px;
+   padding: 10px;
+   background-color: #222;
+   border-radius: 5px;
+   display: inline-block;
+   width: 300px;
+ }
+ 
+ /* Системные требования */
+ .requirements ul {
+   list-style: none;
+   padding: 0;
+   color: #ccc;
+ }
+ 
+ .requirements ul li {
+   margin: 10px 0;
+ }
+ 
+ /* Цитаты */
+ .quotes blockquote {
+   font-size: 20px;
+   font-style: italic;
+   margin: 20px auto;
+   padding: 20px;
+   max-width: 800px;
+   background-color: #222;
+   border-left: 5px solid #f0a500;
+ }
+ 
+ /* Подписка */
+ .newsletter form {
+   margin-top: 20px;
+ }
+ 
+ .newsletter input {
+   padding: 10px;
+   font-size: 16px;
+   border: 1px solid #333;
+   border-radius: 5px;
+   margin-right: 10px;
+   width: 300px;
+ }
+ 
+ .newsletter button {
+   padding: 10px 20px;
+   font-size: 16px;
+   background-color: #f0a500;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background 0.3s;
+ }
+ 
+ .newsletter button:hover {
+   background-color: #cc8400;
+ }
+ 
+ /* Футер */
+ .footer {
+   background-color: #111;
+   padding: 20px 0;
+   text-align: center;
+   color: #ccc;
+ }
+ 
+ .footer p {
+   font-size: 14px;
+ }
+ 
